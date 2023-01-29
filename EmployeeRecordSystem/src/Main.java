@@ -46,6 +46,7 @@ public class Main {
                         System.err.println("Wrong input");
                 }
             } catch (InputMismatchException e){
+                scan.next();
                 System.err.println("Input Mismatch Exception");
             }
         }
